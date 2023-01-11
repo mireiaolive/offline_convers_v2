@@ -12,3 +12,5 @@ Run npm install
 To send requests, new events, make a POST request to this API's /events edge from this path: https://graph.facebook.com/{API_VERSION}/{PIXEL_ID}/events?access_token={TOKEN}. When you post to this edge, Facebook creates new server events.
 
 Run node main.js
+
+Website events shared via the Conversions API require the following data parameters: client_user_agent, action_source, and event_source_url, while non-web events require only action_source. These parameters help improve the quality of events used for ad delivery and can also improve campaign performance.
