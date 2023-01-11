@@ -7,9 +7,8 @@ const EventRequest = bizSdk.EventRequest;
 const UserData = bizSdk.UserData;
 const ServerEvent = bizSdk.ServerEvent;
 
-const access_token =
-    "EAAKf8qJ4GsIBALWVDoij1uBgsXhZBoFzqdXAwlF7TlyyF6BUiGq5L4OmsDr8F4Oc2BEvpUguMV9j3a59tD0GF0Fg2ZBOifO35F2udDpYO8JZBhq1Dl7OXP2jKPff5mXilMz1s6ZAJfZB7SjAZBGVGSEKZBgH6mGVwFLZAaH2ZAxIG9ch0aWyin30j253VK44xTFMZD";
-const pixel_id = 2919800498130478;
+const access_token = "<ACCESS_TOKEN>";
+const pixel_id = "<ADS_PIXEL_ID>";
 const api = bizSdk.FacebookAdsApi.init(access_token);
 
 let current_timestamp = Math.floor(new Date() / 1000);
